@@ -6,3 +6,38 @@ do
  command
  command
 done
+
+2.) if loop
+
+>> if then 
+
+if [condition]
+then
+   statement
+fi
+
+>> if then else
+
+if [condition]
+then
+   statement
+else
+   statement 
+fi   
+
+>> if elif else
+
+if [condition]
+then
+   statement
+elif
+then
+   statement 
+   .
+   .
+   .
+else
+   statement 
+fi   
+
+
