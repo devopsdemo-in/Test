@@ -1,0 +1,8 @@
+1.) while loop
+
+while [condition]
+do 
+ command 
+ command
+ command
+done
