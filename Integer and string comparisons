@@ -1,0 +1,23 @@
+Integer Comparison
+---------------------------------------------
+-eq is equal to - if [ "$a" -eq "$b" ]
+-ne is not equal to - if [ "$a" -ne "$b" ]
+-gt is greater than - if [ "$a" -gt "$b" ]
+-ge is greater than equal to - if [ "$a" -ge "$b" ]
+-lt is less than - if [ "$a" -lt "$b ]
+-le is less than equals to - if [ "$a" -le "$b ]
+
+< is less than - if (("$a" < "$b"))
+<= is less than equal to - if (("$a" <= "$b"))
+> is greater than - if (("$a" > "$b))
+>= is greater than equals to - if (("$a" >= "$b))
+
+String comparison
+---------------------------------------------------
+= is equals to - if [ "$a" = "$b" ]
+== is equals to - if [ "$a" == "$b" ]
+!= not equal to - if [ "$a" != "$b" ]
+< is less than, in ASCII alphabetical order - if [[ "$a" < "$b" ]]
+> is greater, in ASCII alphabetical order - if [[ "$a" < "$b" ]]
+-n  evaluate if string length is greater than zero - if [ -n "$a" ]
+-z  evaluate if string length is equal to zero - if [ -z "$a" ]
