@@ -23,3 +23,17 @@ for (( declaration; condition; decrement/increment )) # (( i=0; i<5; i++ ))
 do
  command
 done
+
+>>if you want to execute list of commands using for loop
+
+for VARIABLE in ls pwd date
+do 
+ $variable 
+done 
+
+>>if you want to provide all the contents of pwd as an input 
+
+for VARIABLE in * //# asterisk * is used to provide all the contents of pwd as an input 
+do
+ command 
+done
